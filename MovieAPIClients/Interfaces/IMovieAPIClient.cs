@@ -31,4 +31,5 @@ namespace MovieAPIClients.Interfaces
 
         Task<IEnumerable<MovieDirectorResult>> GetMovieDirectorsAsync(int externalId);
     }
+
 }
